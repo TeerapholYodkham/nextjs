@@ -48,8 +48,8 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@master
         with:
-          host: 192.168.1.166   
-          port: 23
+          host: 100.89.168.21   
+          port: 3329
           username: xinno      
           password: 88889999    
           script: |
